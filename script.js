@@ -28,3 +28,12 @@
           localStorage.setItem("mode" , "dark-mode");
       }
     });
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 100,
+    delay: 1,
+    duration: 1000,
+  });
+</script>
