@@ -28,11 +28,3 @@
           localStorage.setItem("mode" , "dark-mode");
       }
     });
-
-
-  AOS.init({
-    offset: 100,
-    delay: 1,
-    duration: 1000,
-  });
-
